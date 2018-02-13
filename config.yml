@@ -1,0 +1,13 @@
+server:
+   applicationConnectors:
+   - type: http
+     port: 9001
+   adminConnectors:
+   - type: http
+     port: 9002
+couchbaseClusterIp: 10.103.210.230
+couchbaseBucketName: vehicleBucket
+couchbasePassword: password
+activeMqServer: ACTIVEMQ_PORT_61616_TCP
+activeMqUsername: admin
+activeMqPwd: admin
